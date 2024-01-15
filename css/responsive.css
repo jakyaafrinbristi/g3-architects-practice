@@ -1,0 +1,36 @@
+
+/* responsive styles */
+/*mobile device  */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav,.teams-container,.facts-card-container {
+        flex-direction: column;
+    }
+    .teams-img-container {
+        grid-template-columns: 1fr;
+    }
+    .teams-container {
+        padding-left: 0;
+      
+    }
+    
+.teams-container .teams-content p,.facts p{
+   width: 100%;
+}
+.facts-card-container .card{
+    margin-bottom: 10px;
+}
+}
+/*tablet device  */
+@media screen and (min-width: 576px) and (max-width:960px) {
+    header {
+        padding: 50px;
+    }
+
+    nav,.teams-container{
+        flex-direction: column;
+    }
+}
